@@ -79,7 +79,7 @@ const GetInvolved = () => {
             Get Involved
           </h1>
           <p className="text-xl text-primary-foreground/90 max-w-3xl mx-auto animate-fade-in">
-            Join us in making a difference. There are many ways you can support our mission and help empower youth.
+            Join our mission to expand access to compassionate mental healthcare and community support.
           </p>
         </div>
       </section>
@@ -174,7 +174,7 @@ const GetInvolved = () => {
             <Card className="shadow-elegant">
               <CardHeader>
                 <CardTitle>Volunteer Application</CardTitle>
-                <CardDescription>Fill out this form to express your interest in volunteering with us.</CardDescription>
+                <CardDescription>Fill out this form to express your interest in supporting our mental health programs.</CardDescription>
               </CardHeader>
               <CardContent>
                 <form onSubmit={handleVolunteerSubmit} className="space-y-6">
@@ -219,10 +219,10 @@ const GetInvolved = () => {
                         <SelectValue placeholder="Select an area" />
                       </SelectTrigger>
                       <SelectContent className="bg-popover">
-                        <SelectItem value="mentorship">Mentorship</SelectItem>
-                        <SelectItem value="tutoring">Tutoring</SelectItem>
-                        <SelectItem value="skills-training">Skills Training</SelectItem>
-                        <SelectItem value="event-support">Event Support</SelectItem>
+                        <SelectItem value="peer-support">Peer Support Group Facilitation</SelectItem>
+                        <SelectItem value="outreach">Community Outreach & Screenings</SelectItem>
+                        <SelectItem value="education">Workshops & Education</SelectItem>
+                        <SelectItem value="helpline">Helpline Support (non-clinical)</SelectItem>
                         <SelectItem value="administrative">Administrative</SelectItem>
                         <SelectItem value="other">Other</SelectItem>
                       </SelectContent>
@@ -241,7 +241,7 @@ const GetInvolved = () => {
                     <Label htmlFor="message">Tell us about yourself</Label>
                     <Textarea
                       id="message"
-                      placeholder="Share your skills, experience, and why you want to volunteer..."
+                      placeholder="Share any relevant experience (lived, peer, clinical) and why you want to volunteer..."
                       value={volunteerData.message}
                       onChange={(e) => setVolunteerData({ ...volunteerData, message: e.target.value })}
                       rows={4}

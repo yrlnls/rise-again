@@ -14,43 +14,43 @@ import communityImage from "@/assets/community.jpg";
 const Home = () => {
   const programs = [
     {
-      title: "Mentorship Program",
-      description: "Connect youth with experienced mentors who guide them through personal and professional development.",
-      icon: Users,
+      title: "Counseling & Therapy",
+      description: "Confidential one-on-one counseling with licensed professionals for stress, anxiety, and depression.",
+      icon: Heart,
       image: mentorshipImage,
     },
     {
-      title: "Skills Training",
-      description: "Hands-on training in digital literacy, entrepreneurship, and vocational skills for career readiness.",
-      icon: GraduationCap,
+      title: "Support Groups",
+      description: "Peer-led and clinician-facilitated groups for shared experiences, healing, and resilience.",
+      icon: Users,
       image: skillsImage,
     },
     {
-      title: "Community Development",
-      description: "Collaborative projects that bring communities together to create lasting positive change.",
-      icon: Heart,
+      title: "Mental Health Education",
+      description: "Workshops on coping skills, mindfulness, self-care, and suicide prevention for all ages.",
+      icon: GraduationCap,
       image: communityImage,
     },
   ];
 
   const stories = [
     {
-      title: "From Dropout to Tech Entrepreneur: Sarah's Journey",
-      excerpt: "How our mentorship program helped Sarah discover her passion for coding and launch her own startup at age 19.",
+      title: "Finding Calm: Aisha's Path to Healing",
+      excerpt: "With weekly counseling and a supportive peer group, Aisha learned practical tools to manage anxiety and reclaim her confidence.",
       date: "March 15, 2024",
       category: "Success Story",
       image: mentorshipImage,
     },
     {
-      title: "Building Hope: Community Center Opening in Downtown",
-      excerpt: "Our newest community center will serve over 500 youth with state-of-the-art facilities and programs.",
+      title: "Community Wellness Hub Opens Downtown",
+      excerpt: "Our new center offers free screenings, workshops, and crisis support for individuals and families.",
       date: "March 10, 2024",
       category: "News",
       image: communityImage,
     },
     {
-      title: "Skills That Transform: The Power of Vocational Training",
-      excerpt: "Graduates from our vocational program are finding meaningful employment and building better futures.",
+      title: "Mindfulness in Schools",
+      excerpt: "Educators report reduced stress and improved classroom climate after our 6-week mindfulness series.",
       date: "March 5, 2024",
       category: "Impact",
       image: skillsImage,
@@ -73,10 +73,10 @@ const Home = () => {
         </div>
         <div className="relative z-10 container mx-auto px-4 text-center animate-fade-in">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
-            Empowering Youth,<br />Building Communities
+            Compassionate Mental Health Care<br />for Every Community
           </h1>
           <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto">
-            Together, we're creating opportunities for underprivileged youth through education, mentorship, and community development.
+            We provide accessible counseling, support groups, and education to promote wellbeing and resilience.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-secondary-foreground shadow-warm text-lg px-8" asChild>

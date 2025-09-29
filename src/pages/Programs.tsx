@@ -2,7 +2,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { GraduationCap, Users, Heart, BookOpen, Briefcase, Lightbulb } from "lucide-react";
+import { Heart, Users, BookOpen, Brain, Headphones, HelpingHand } from "lucide-react";
 import { Link } from "react-router-dom";
 import mentorshipImage from "@/assets/mentorship.jpg";
 import skillsImage from "@/assets/skills-training.jpg";
@@ -11,75 +11,75 @@ import communityImage from "@/assets/community.jpg";
 const Programs = () => {
   const programs = [
     {
-      title: "Mentorship Program",
-      description: "One-on-one mentorship connecting youth with experienced professionals who provide guidance, support, and career advice.",
-      icon: Users,
+      title: "Clinical Counseling (Primary Care Integration)",
+      description: "Evidence-based therapy integrated with primary care to increase access and continuity. Focus on anxiety, depression, trauma, and grief.",
+      icon: Brain,
       image: mentorshipImage,
       features: [
-        "Personalized mentoring relationships",
-        "Career guidance and planning",
-        "Life skills development",
-        "Goal setting and accountability",
+        "Cognitive Behavioral Therapy (CBT)",
+        "Trauma-informed care",
+        "Family and couples counseling",
+        "Crisis intervention & safety planning",
       ],
     },
     {
-      title: "Skills Training Workshops",
-      description: "Hands-on training in digital literacy, coding, entrepreneurship, and vocational skills preparing youth for the modern workforce.",
-      icon: GraduationCap,
+      title: "Peer Support & Group Therapy",
+      description: "Weekly groups led by trained peer specialists and clinicians to reduce isolation and strengthen coping.",
+      icon: Users,
       image: skillsImage,
       features: [
-        "Digital literacy and computer skills",
-        "Coding and web development",
-        "Entrepreneurship and business basics",
-        "Vocational and trade skills",
+        "Teen resilience circles",
+        "Caregiver support",
+        "Grief and loss group",
+        "Mindfulness practice group",
       ],
     },
     {
-      title: "Education Support",
-      description: "Academic tutoring, scholarship assistance, and educational resources to help students succeed in school and beyond.",
+      title: "Community Education & MH First Aid",
+      description: "Mental health literacy, coping skills, suicide prevention, and Mental Health First Aid to build community capacity.",
       icon: BookOpen,
       image: mentorshipImage,
       features: [
-        "After-school tutoring programs",
-        "Scholarship application support",
-        "Study materials and resources",
-        "College preparation workshops",
+        "Mental Health First Aid (youth/adult)",
+        "Stress management 101",
+        "Mindfulness and breathwork",
+        "School and workplace trainings",
       ],
     },
+    // {
+    //   title: "Mobile Outreach & Screening Clinics",
+    //   description: "Pop-up wellness events, PHQ-9/GAD-7 screenings, and referrals in partnership with CBOs and clinics.",
+    //   icon: Heart,
+    //   image: communityImage,
+    //   features: [
+    //     "PHQ-9/GAD-7 screening & referral",
+    //     "Resource navigation",
+    //     "Stigma reduction campaigns",
+    //     "Culturally responsive care",
+    //   ],
+    // },
     {
-      title: "Community Development",
-      description: "Collaborative projects that bring communities together to address local needs and create sustainable positive change.",
-      icon: Heart,
-      image: communityImage,
-      features: [
-        "Community improvement projects",
-        "Youth leadership development",
-        "Neighborhood beautification initiatives",
-        "Social cohesion programs",
-      ],
-    },
-    {
-      title: "Career Readiness",
-      description: "Job search support, resume building, interview preparation, and professional networking opportunities.",
-      icon: Briefcase,
+      title: "Non-Clinical Helpline & Care Navigation",
+      description: "Compassionate listening, safety planning, and warm handoffs to local and telehealth services.",
+      icon: Headphones,
       image: skillsImage,
       features: [
-        "Resume and cover letter writing",
-        "Interview skills training",
-        "Job search strategies",
-        "Professional networking events",
+        "Non-urgent support line",
+        "Crisis resource guidance",
+        "Warm handoffs to providers",
+        "Follow-up check-ins",
       ],
     },
     {
-      title: "Innovation Hub",
-      description: "A creative space for youth to explore technology, innovation, and entrepreneurship through projects and competitions.",
-      icon: Lightbulb,
+      title: "Case Management & Social Supports",
+      description: "Coordinated care addressing social determinants that affect mental wellbeing and treatment adherence.",
+      icon: HelpingHand,
       image: communityImage,
       features: [
-        "Project-based learning",
-        "Innovation challenges",
-        "Startup incubation support",
-        "Access to technology and tools",
+        "Personalized care plans",
+        "Benefits and housing support",
+        "School/workplace accommodations",
+        "Ongoing progress reviews",
       ],
     },
   ];
@@ -92,10 +92,10 @@ const Programs = () => {
       <section className="pt-32 pb-16 bg-gradient-hero">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-6 animate-fade-in">
-            Our Programs
+            Mental Health Services
           </h1>
           <p className="text-xl text-primary-foreground/90 max-w-3xl mx-auto animate-fade-in">
-            Comprehensive programs designed to empower youth, build skills, and create lasting community impact.
+            Fundable initiatives with clear outcomes, strong partnerships, and robust monitoring & evaluation.
           </p>
         </div>
       </section>

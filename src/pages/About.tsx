@@ -37,10 +37,10 @@ const About = () => {
       <section className="pt-32 pb-16 bg-gradient-hero">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-6 animate-fade-in">
-            About Rise Again Initiative
+            About Rise Again Foundation
           </h1>
           <p className="text-xl text-primary-foreground/90 max-w-3xl mx-auto animate-fade-in">
-            Building brighter futures through education, mentorship, and community empowerment since 2015.
+            Advancing mental health through compassionate care, education, and community support.
           </p>
         </div>
       </section>
@@ -59,10 +59,10 @@ const About = () => {
             <div className="animate-fade-in">
               <h2 className="text-3xl font-bold mb-6">Our Mission</h2>
               <p className="text-lg text-muted-foreground mb-4">
-                Rise Again Initiative is dedicated to empowering youth in underprivileged communities through comprehensive support programs. We provide skills training, educational resources, mentorship, and community development initiatives that create lasting positive change.
+                We exist to make mental healthcare accessible, stigma-free, and culturally responsive. Through clinical counseling, peer support, and education, we help individuals and families build lasting wellbeing.
               </p>
               <p className="text-lg text-muted-foreground">
-                Since our founding in 2015, we've impacted over 5,000 young lives, helping them overcome barriers and build brighter futures. Our holistic approach addresses not just immediate needs, but creates sustainable pathways to success.
+                Since 2015, we have provided thousands of sessions, trained community responders, and created safe spaces for healing.
               </p>
             </div>
           </div>
@@ -71,10 +71,10 @@ const About = () => {
             <div className="animate-fade-in order-2 lg:order-1">
               <h2 className="text-3xl font-bold mb-6">Our Vision</h2>
               <p className="text-lg text-muted-foreground mb-4">
-                We envision a world where every young person, regardless of their background, has access to the resources, support, and opportunities they need to thrive. A world where communities are strengthened through collective empowerment and sustainable development.
+                A world where mental health is cared for with the same urgency and compassion as physical health, and everyone has access to the support they need.
               </p>
               <p className="text-lg text-muted-foreground">
-                Through our programs, we're building a generation of empowered, skilled, and compassionate leaders who will create positive change in their communities and beyond.
+                We work alongside communities to normalize help-seeking, expand services, and strengthen support networks.
               </p>
             </div>
             <div className="animate-fade-in order-1 lg:order-2">
@@ -124,10 +124,10 @@ const About = () => {
           </div>
           <div className="bg-card rounded-lg shadow-card p-8 text-center">
             <p className="text-lg text-muted-foreground mb-6">
-              Our team consists of experienced educators, community organizers, social workers, and passionate volunteers who are committed to our mission. Together, we bring diverse skills and perspectives to create effective, impactful programs.
+              Our team includes licensed clinicians, peer support specialists, community health workers, and dedicated volunteers united by compassion and evidence-based care.
             </p>
             <p className="text-lg text-muted-foreground">
-              With over 200 active volunteers and a dedicated core team, we're able to provide comprehensive support to the communities we serve. Every member of our team plays a vital role in transforming lives and building hope.
+              With over 200 active volunteers and a dedicated core team, we provide counseling, groups, education, and outreach that meet people where they are.
             </p>
           </div>
         </div>

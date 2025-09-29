@@ -13,67 +13,39 @@ const Stories = () => {
 
   const allStories = [
     {
-      title: "From Dropout to Tech Entrepreneur: Sarah's Journey",
-      excerpt: "At 16, Sarah was ready to give up on education. Today, she runs a successful tech startup and mentors other young entrepreneurs. Discover how our mentorship program changed her life trajectory.",
+      title: "Counseling Access Increased by 40% After Clinic Partnership",
+      excerpt: "Through an MoU with a primary care clinic, we integrated screening and referrals, reducing wait time from 6 weeks to 10 days.",
       date: "March 15, 2024",
-      category: "Success Story",
+      category: "Impact",
       image: mentorshipImage,
     },
+    // {
+    //   title: "NGO Grant Launches Mobile Screening Days",
+    //   excerpt: "Monthly pop-up clinics delivered 320 PHQ-9/GAD-7 screenings; 68% received same-week follow-up and navigation.",
+    //   date: "March 10, 2024",
+    //   category: "Program Highlight",
+    //   image: communityImage,
+    // },
     {
-      title: "Building Hope: New Community Center Opens",
-      excerpt: "Our newest community center in Downtown will serve over 500 youth with state-of-the-art facilities including computer labs, study rooms, and recreational spaces.",
-      date: "March 10, 2024",
-      category: "News",
-      image: communityImage,
-    },
-    {
-      title: "Skills That Transform: The Power of Vocational Training",
-      excerpt: "Meet the graduates of our vocational training program who are now employed in their dream careers. Their stories showcase the transformative power of skills development.",
+      title: "School-Based Mindfulness Improves Outcomes",
+      excerpt: "After a 6-week series, students showed a 24% reduction in perceived stress and improved attendance.",
       date: "March 5, 2024",
       category: "Impact",
       image: skillsImage,
     },
     {
-      title: "Community Gardens Project: Growing More Than Food",
-      excerpt: "Our community garden initiative is teaching youth about sustainability, nutrition, and teamwork while beautifying neighborhoods and providing fresh produce.",
+      title: "Grief Support Groups Foster Connection",
+      excerpt: "Participant surveys indicate 92% reported feeling less isolated and more hopeful after 8 sessions.",
       date: "February 28, 2024",
       category: "Program Highlight",
       image: communityImage,
     },
     {
-      title: "Breaking Barriers: First Generation College Students",
-      excerpt: "Follow the inspiring journeys of first-generation college students who overcame obstacles with our education support program. Their success opens doors for entire families.",
-      date: "February 20, 2024",
-      category: "Success Story",
-      image: mentorshipImage,
-    },
-    {
-      title: "Technology Access Initiative Reaches 1,000 Students",
-      excerpt: "Our digital literacy program has provided computer training and technology access to over 1,000 students, preparing them for the digital economy.",
-      date: "February 15, 2024",
-      category: "Impact",
-      image: skillsImage,
-    },
-    {
-      title: "Volunteer Spotlight: Meet Marcus, Our Mentor of the Year",
-      excerpt: "Marcus has mentored 15 young people over the past three years, helping them navigate education, career choices, and personal challenges. Learn about his dedication.",
+      title: "Volunteer Spotlight: Peer Leaders Driving Change",
+      excerpt: "Trained peer facilitators led 140 group hours, extending reach and sustainability across partner sites.",
       date: "February 10, 2024",
       category: "Volunteer Story",
       image: mentorshipImage,
-    },
-    {
-      title: "Youth Leadership Summit Empowers Next Generation",
-      excerpt: "Over 200 young leaders gathered for our annual Youth Leadership Summit, participating in workshops on advocacy, community organizing, and social change.",
-      date: "February 5, 2024",
-      category: "Event",
-      image: communityImage,
-    },
-    {
-      title: "Career Fair Connects 150 Youth with Employers",
-      excerpt: "Our recent career fair brought together local businesses and job-seeking youth, resulting in over 40 job offers and countless valuable connections.",
-      date: "January 30, 2024",
-      category: "Program Highlight",
-      image: skillsImage,
     },
   ];
 
@@ -88,12 +60,12 @@ const Stories = () => {
       {/* Hero Section */}
       <section className="pt-32 pb-16 bg-gradient-hero">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-6 animate-fade-in">
-            Stories of Impact
-          </h1>
-          <p className="text-xl text-primary-foreground/90 max-w-3xl mx-auto animate-fade-in">
-            Read about the lives we're changing, the communities we're building, and the hope we're creating together.
-          </p>
+            <h1 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-6 animate-fade-in">
+              Mental Health Stories
+            </h1>
+            <p className="text-xl text-primary-foreground/90 max-w-3xl mx-auto animate-fade-in">
+              Real experiences of healing, resilience, and community care.
+            </p>
         </div>
       </section>
 

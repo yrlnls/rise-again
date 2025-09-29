@@ -12,10 +12,10 @@ const StatsCounter = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
 
   const stats: Stat[] = [
-    { value: 5000, label: "Youth Impacted", suffix: "+" },
-    { value: 50, label: "Programs Running", suffix: "+" },
-    { value: 200, label: "Active Volunteers", suffix: "+" },
-    { value: 25, label: "Communities Served", suffix: "+" },
+    { value: 5000, label: "Counseling Sessions Provided", suffix: "+" },
+    { value: 1200, label: "Support Group Attendances", suffix: "+" },
+    { value: 300, label: "Workshops & Trainings", suffix: "+" },
+    { value: 25, label: "Partner Sites", suffix: "+" },
   ];
 
   useEffect(() => {
