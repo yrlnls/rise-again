@@ -33,29 +33,29 @@ const Home = () => {
     },
   ];
 
-  const stories = [
-    {
-      title: "Finding Calm: Aisha's Path to Healing",
-      excerpt: "With weekly counseling and a supportive peer group, Aisha learned practical tools to manage anxiety and reclaim her confidence.",
-      date: "March 15, 2024",
-      category: "Success Story",
-      image: mentorshipImage,
-    },
-    {
-      title: "Community Wellness Hub Opens Downtown",
-      excerpt: "Our new center offers free screenings, workshops, and crisis support for individuals and families.",
-      date: "March 10, 2024",
-      category: "News",
-      image: communityImage,
-    },
-    {
-      title: "Mindfulness in Schools",
-      excerpt: "Educators report reduced stress and improved classroom climate after our 6-week mindfulness series.",
-      date: "March 5, 2024",
-      category: "Impact",
-      image: skillsImage,
-    },
-  ];
+  // const stories = [
+  //   {
+  //     title: "Finding Calm: Aisha's Path to Healing",
+  //     excerpt: "With weekly counseling and a supportive peer group, Aisha learned practical tools to manage anxiety and reclaim her confidence.",
+  //     date: "March 15, 2024",
+  //     category: "Success Story",
+  //     image: mentorshipImage,
+  //   },
+  //   {
+  //     title: "Community Wellness Hub Opens Downtown",
+  //     excerpt: "Our new center offers free screenings, workshops, and crisis support for individuals and families.",
+  //     date: "March 10, 2024",
+  //     category: "News",
+  //     image: communityImage,
+  //   },
+  //   {
+  //     title: "Mindfulness in Schools",
+  //     excerpt: "Educators report reduced stress and improved classroom climate after our 6-week mindfulness series.",
+  //     date: "March 5, 2024",
+  //     category: "Impact",
+  //     image: skillsImage,
+  //   },
+  // ];
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -117,7 +117,7 @@ const Home = () => {
       </section>
 
       {/* Stories Section */}
-      <section className="py-20 bg-muted/50">
+      {/* <section className="py-20 bg-muted/50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Latest Stories</h2>
@@ -138,7 +138,7 @@ const Home = () => {
             </Button>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-warm">
