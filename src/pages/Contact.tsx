@@ -41,13 +41,13 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      details: "(555) 123-4567",
-      action: "tel:+15551234567",
+      details: "+254 746 061 690",
+      action: "tel:+254746061690",
     },
     {
       icon: MapPin,
       title: "Address",
-      details: "123 Hope Street, Community District, City, State 12345",
+      details: "Nairobi, Kenya",
       action: null,
     },
     {
@@ -179,7 +179,7 @@ const Contact = () => {
                 <CardContent>
                   <div className="w-full h-[400px] bg-muted rounded-lg overflow-hidden">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1841861389417!2d-73.98784368459393!3d40.74844097932847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.197940276074!2d36.8064932!3d-1.2863895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d89a0f9b2f%3A0xfdf6f7f96b9b0f7b!2sNairobi%2C%20Kenya!5e0!3m2!1sen!2ske!4v1728123456789!5m2!1sen!2ske"
                       width="100%"
                       height="100%"
                       style={{ border: 0 }}
