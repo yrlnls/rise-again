@@ -89,7 +89,7 @@ const Programs = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-16 bg-gradient-hero">
+      <section className="pt-32 pb-16 bg-primary">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-6 animate-fade-in">
             Mental Health Services
@@ -113,11 +113,14 @@ const Programs = () => {
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <div className={index % 2 === 1 ? "lg:order-2" : ""}>
-                  <img
-                    src={program.image}
-                    alt={program.title}
-                    className="rounded-lg shadow-elegant w-full h-[400px] object-cover"
-                  />
+                  <div className="relative rounded-lg shadow-elegant w-full h-[400px] overflow-hidden">
+                    <img
+                      src={program.image}
+                      alt={program.title}
+                      className="w-full h-full object-cover"
+                    />
+                    <div className="absolute inset-0 bg-primary opacity-30" />
+                  </div>
                 </div>
                 <Card className={`shadow-card ${index % 2 === 1 ? "lg:order-1" : ""}`}>
                   <CardHeader>

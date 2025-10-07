@@ -73,7 +73,7 @@ const GetInvolved = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-16 bg-gradient-hero">
+      <section className="pt-32 pb-16 bg-primary">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-6 animate-fade-in">
             Get Involved

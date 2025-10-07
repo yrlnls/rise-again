@@ -20,7 +20,7 @@ const ProgramCard = ({ title, description, icon: Icon, image }: ProgramCardProps
             alt={title}
             className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
           />
-          <div className="absolute inset-0 bg-gradient-overlay opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+          <div className="absolute inset-0 bg-primary opacity-30" />
         </div>
       )}
       <CardHeader>

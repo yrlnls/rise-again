@@ -34,7 +34,7 @@ const About = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-16 bg-gradient-hero">
+      <section className="pt-32 pb-16 bg-primary">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-6 animate-fade-in">
             About Rise Again Foundation
@@ -49,12 +49,13 @@ const About = () => {
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
-            <div className="animate-fade-in">
+            <div className="animate-fade-in relative rounded-lg shadow-elegant w-full overflow-hidden">
               <img
                 src={mentorshipImage}
                 alt="Our mission"
-                className="rounded-lg shadow-elegant w-full"
+                className="w-full h-full object-cover"
               />
+              <div className="absolute inset-0 bg-primary opacity-30" />
             </div>
             <div className="animate-fade-in">
               <h2 className="text-3xl font-bold mb-6">Our Mission</h2>
@@ -77,12 +78,13 @@ const About = () => {
                 We work alongside communities to normalize help-seeking, expand services, and strengthen support networks.
               </p>
             </div>
-            <div className="animate-fade-in order-1 lg:order-2">
+            <div className="animate-fade-in order-1 lg:order-2 relative rounded-lg shadow-elegant w-full overflow-hidden">
               <img
                 src={communityImage}
                 alt="Our vision"
-                className="rounded-lg shadow-elegant w-full"
+                className="w-full h-full object-cover"
               />
+              <div className="absolute inset-0 bg-primary opacity-30" />
             </div>
           </div>
         </div>

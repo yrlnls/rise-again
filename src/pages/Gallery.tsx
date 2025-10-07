@@ -11,7 +11,6 @@ const images = [
   { src: heroImage, alt: "Youth Empowerment" },
   { src: mentorshipImage, alt: "Mentorship Program" },
   { src: skillsImage, alt: "Skills Training" },
-  // Add more images or placeholders here if needed
 ];
 
 const Gallery = () => {
@@ -22,12 +21,14 @@ const Gallery = () => {
         <h1 className="text-4xl font-bold mb-8 text-center">Gallery</h1>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {images.map((image, index) => (
-            <img
-              key={index}
-              src={image.src}
-              alt={image.alt}
-              className="rounded-lg shadow-lg object-cover w-full h-48"
-            />
+            <div key={index} className="relative rounded-lg shadow-lg w-full h-48 overflow-hidden">
+              <img
+                src={image.src}
+                alt={image.alt}
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-primary opacity-30" />
+            </div>
           ))}
         </div>
       </main>

@@ -21,8 +21,9 @@ const StoryCard = ({ title, excerpt, date, image, category }: StoryCardProps) =>
             alt={title}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
+          <div className="absolute inset-0 bg-primary opacity-30" />
           {category && (
-            <div className="absolute top-4 left-4 bg-secondary text-secondary-foreground px-3 py-1 rounded-full text-xs font-medium">
+            <div className="absolute top-4 left-4 bg-secondary text-secondary-foreground px-3 py-1 rounded-full text-xs font-medium z-10">
               {category}
             </div>
           )}

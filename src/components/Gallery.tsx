@@ -13,11 +13,14 @@ const Gallery = ({ images }: GalleryProps) => {
         <CarouselContent className="flex">
           {images.map((image, index) => (
             <CarouselItem key={index} className="flex justify-center items-center">
-              <img
-                src={image.src}
-                alt={image.alt}
-                className="max-h-96 object-contain rounded-lg shadow-lg"
-              />
+              <div className="relative max-h-96 rounded-lg shadow-lg overflow-hidden">
+                <img
+                  src={image.src}
+                  alt={image.alt}
+                  className="max-h-96 object-contain"
+                />
+                <div className="absolute inset-0 bg-primary opacity-30" />
+              </div>
             </CarouselItem>
           ))}
         </CarouselContent>
@@ -36,7 +39,10 @@ const Gallery = ({ images }: GalleryProps) => {
             }}
             aria-label={`Go to slide ${index + 1}`}
           >
-            <img src={image.src} alt={image.alt} className="h-10 w-10 object-cover rounded" />
+            <div className="relative h-10 w-10 rounded overflow-hidden">
+              <img src={image.src} alt={image.alt} className="h-10 w-10 object-cover" />
+              <div className="absolute inset-0 bg-primary opacity-30" />
+            </div>
           </Button>
         ))}
       </div>
