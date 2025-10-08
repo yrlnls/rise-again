@@ -24,9 +24,9 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-lg bg-gradient-hero flex items-center justify-center">
-                <Heart className="w-6 h-6 text-primary-foreground" fill="currentColor" />
-              </div>
+              <img src="/rise-logo.png" 
+              alt="Rise Again Initiative Logo" 
+              className="w-10 h-10 rounded-lg object-cover shadow-elegant" />
               <div className="flex flex-col">
                 <span className="text-lg font-bold">Rise Again</span>
                 <span className="text-xs text-muted-foreground">Initiative</span>
@@ -85,7 +85,7 @@ const Footer = () => {
         {/* Social Links and Copyright */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © 2024 Rise Again Initiative. All rights reserved.
+            © 2025 Rise Again Initiative. All rights reserved.
           </p>
           <div className="flex gap-4">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">

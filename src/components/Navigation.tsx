@@ -24,9 +24,10 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 rounded-lg bg-gradient-hero flex items-center justify-center shadow-elegant">
-              <Heart className="w-6 h-6 text-primary-foreground" fill="currentColor" />
-            </div>
+           <img src="/rise-logo.png"
+            alt="Rise Again Initiative Logo"
+            className="w-10 h-10 rounded-lg object-cover shadow-elegant"
+           />
             <div className="flex flex-col">
               <span className="text-xl font-bold text-foreground">Rise Again</span>
               <span className="text-xs text-muted-foreground">Initiative</span>

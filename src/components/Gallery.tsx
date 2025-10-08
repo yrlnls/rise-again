@@ -34,8 +34,6 @@ const Gallery = ({ images }: GalleryProps) => {
             variant="outline"
             size="icon"
             onClick={() => {
-              // Scroll to the selected slide
-              // This requires access to carousel API, which can be added later if needed
             }}
             aria-label={`Go to slide ${index + 1}`}
           >
