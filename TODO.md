@@ -1,0 +1,1 @@
+- [x] Replace X icon in Footer.tsx with logo-black.png image, sized to fit (w-5 h-5 object-contain)

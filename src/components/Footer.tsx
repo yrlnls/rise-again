@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Facebook, Twitter, Instagram, Linkedin, Mail } from "lucide-react";
+import { Facebook, X, Instagram, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useState } from "react";
@@ -21,7 +21,6 @@ const Footer = () => {
     <footer className="bg-card border-t border-border">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
-          {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
               <img src="/rise-logo.png" 
@@ -37,7 +36,6 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Quick Links */}
           <div>
             <h3 className="font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
@@ -49,7 +47,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Get Involved */}
           <div>
             <h3 className="font-semibold mb-4">Get Involved</h3>
             <ul className="space-y-2">
@@ -60,7 +57,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Newsletter */}
           <div>
             <h3 className="font-semibold mb-4">Stay Connected</h3>
             <p className="text-sm text-muted-foreground mb-4">
@@ -82,7 +78,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Social Links and Copyright */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
             © 2025 Rise Again Initiative. All rights reserved.
@@ -92,7 +87,7 @@ const Footer = () => {
               <Facebook className="w-5 h-5" />
             </a>
             <a href="https://x.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-              <Twitter className="w-5 h-5" />
+              <img src="/logo-black.png" alt="X" className="w-5 h-5 object-contain" />
             </a>
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
               <Instagram className="w-5 h-5" />

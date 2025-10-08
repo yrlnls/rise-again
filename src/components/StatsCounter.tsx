@@ -61,7 +61,7 @@ const StatsCounter = () => {
   };
 
   return (
-    <section ref={sectionRef} className="py-16 bg-gradient-hero">
+    <section ref={sectionRef} className="py-16 bg-primary">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {stats.map((stat, index) => (
